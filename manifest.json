@@ -22,10 +22,11 @@
   "web_accessible_resources": ["css/*", "fonts/*"],
   "content_scripts": [{
     "matches": [
-      "<all_urls>"
+      "http://gitlab.local.bridgewell.com/*"
     ],
     "css": [
       "css/jquery-ui.css",
+      "css/bootstrap.min.css",
       "css/main.css"
     ],
     "js": [
