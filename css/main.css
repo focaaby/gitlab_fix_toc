@@ -11,11 +11,8 @@
   overflow: hidden auto;
 }
 
+.nav.gitlab_toc_ul,
 .gitlab_toc_ul {
-  display: block;
-}
-
-.nav.gitlab_toc_ul {
   display: block;
 }
 
